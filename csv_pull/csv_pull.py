@@ -5,7 +5,7 @@ Created on Wed Jul 28 14:18:32 2021
 @author: ebenezer.an
 """
 
-from utils import pull_files, transform_data, create_csv
+from csv_pull.utils import pull_files, transform_data, create_csv
 import sys
 
 def main():
