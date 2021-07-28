@@ -22,7 +22,7 @@ setup(name='csv_pull',
       ],
       url='https://github.com/Ebenezer319/csv_pull',
       author='CSV Extractors',
-      packages=['csv_pull'],
+      packages=['csv_pull', 'csv_pull.tests'],
       install_requires=[
           'numpy',
           'pandas'
