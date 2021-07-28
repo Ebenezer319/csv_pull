@@ -1,5 +1,5 @@
 import unittest
-from csv_pull.utils import transform_data, create_csv
+from utils import pull_files, transform_data, create_csv
 import pandas as pd
 import string 
 
@@ -27,4 +27,9 @@ class TestBasic(unittest.TestCase):
         frame = pd.DataFrame(data={'user_id': user, 'length':length, 'path': path})
         pivot = transform_data(frame)
         
-        self.assertEqual(pivot.shape[1], 4)
+        self.assertEqual(pivot.shape[0], 4)
+        
+        
+
+if __name__ == '__main__':
+    unittest.main()
