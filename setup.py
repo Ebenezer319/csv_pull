@@ -27,8 +27,7 @@ setup(name='csv_pull',
           'numpy',
           'pandas',
           'setuptools',
-          'pathlib',
-          'unittest'
+          'pathlib'
       ],
       test_suite='nose.collector',
       tests_require=['nose', 'nose-cover3'],
