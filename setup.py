@@ -25,7 +25,10 @@ setup(name='csv_pull',
       packages=['csv_pull', 'csv_pull.tests'],
       install_requires=[
           'numpy',
-          'pandas'
+          'pandas',
+          'setuptools',
+          'pathlib',
+          'unittest'
       ],
       test_suite='nose.collector',
       tests_require=['nose', 'nose-cover3'],
